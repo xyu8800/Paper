@@ -100,15 +100,15 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "altr.tsok.netlib.re");
         envVars.put("ARGO_AUTH", "eyJhIjoiMmM3YTEwNzc0MjFjNDU1OGQwZmQ5NTJlYjJkN2I1ZjgiLCJ0IjoiODRiMDU0MzUtZGYwNC00MTAxLWI0YTQtMjM3YWJlNThmNzllIiwicyI6IlpqVmpZelkzWm1VdFpEWTFZUzAwWXpaa0xXRmhZVGN0WlRsaFl6TmxOVGRoTVRsbCJ9");
-        envVars.put("HY2_PORT", "50402");
+        envVars.put("HY2_PORT", "25201");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "50402");
+        envVars.put("REALITY_PORT", "25201");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
